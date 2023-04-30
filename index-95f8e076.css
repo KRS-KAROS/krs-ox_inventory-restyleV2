@@ -70,20 +70,16 @@ body{
 
 .inventory-wrapper{
 
+    background-image: url(https://cdn.discordapp.com/attachments/1052910824865402892/1102216419359346728/bc-karos.png);
    
+  
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    border-radius:.25vh!important;
-    height: 10%;
-    background-image: url(https://cdn.discordapp.com/attachments/1052910824865402892/1101210100997304481/IMG_0963.png);
-    background-repeat: no-repeat;
-    background-position: 48.1rem;
-    background-size: 20%;
-    
-    left: 0;
-    height:100%;gap:20px
+    height:100%;
+   
+    gap:20px
 }
     
     .inventory-control{
@@ -99,9 +95,7 @@ body{
         gap: 30px;
         justify-content: center;
         align-items: center;
-        
         padding: 10px;
-        
         background:  linear-gradient(71deg,  rgba(9, 19, 161, 0.534) 0%,  rgba(0, 0, 0, 0.603) 150%);
         border:1px solid rgba(0, 60, 255, 0.5)!important;
         border-radius: 5px;
@@ -198,7 +192,7 @@ body{
     display: flex;
     flex-direction: column;
     
-    padding: 20px;
+    padding: 15px;
     background:  linear-gradient(71deg,  rgba(9, 19, 161, 0.534) 0%,  rgba(0, 0, 0, 0.603) 150%);
     border:1px solid rgba(0, 60, 255, 0.5)!important;
     border-radius: 5px;
@@ -431,9 +425,7 @@ body{
 
 .durability-bar{
     background:rgba(0,0,0,.5);
-    height:8px;
-    padding: 50rem;
- 
+    height: 2px;
     overflow:hidden
 }
 
@@ -443,7 +435,6 @@ body{
     border:1px solid rgba(0, 60, 255, 0.5)!important;
 
     height:.9em;
-    margin-top: 20px;
     border-radius:25px;
     overflow:hidden
 }
